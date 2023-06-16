@@ -1,0 +1,27 @@
+.centre h1 span {
+	color:#0A9C79;
+	font-family: Gwendolyn;
+}
+.centre h1{
+	background-color:#FFF730;
+	padding: 15px;
+	margin:0;
+}
+.img-left img{
+	width:50%;
+	height:510px;
+	float:left;
+}
+.img-left-l img{
+	width:50%;
+	height:510px;
+	float:left;
+	margin-top:510px;
+
+}
+.img-right img{
+	width:50%;
+	height:510px;
+	float:right;
+	margin-top:510px;
+}

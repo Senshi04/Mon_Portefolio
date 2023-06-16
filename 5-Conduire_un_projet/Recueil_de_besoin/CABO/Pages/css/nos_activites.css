@@ -1,0 +1,66 @@
+.titre h1 {
+	color:white;
+	background-color: #FF7527;
+	padding:50px;
+}
+
+.onglets {
+	text-align:center;
+}
+.onglets .here {
+	background-color: white;
+	padding: 2px 20px;
+	border-radius:25px;
+}
+
+.onglets ul {
+	background-color: #D9D9D9;
+	padding: 5px 20px;
+	margin : 0 30%;
+	border-radius:25px;;
+}
+
+.onglets li {
+    display: inline-block;
+	padding:0px 20px 0 0;
+}
+.onglets li:hover {
+	background-color: white;
+	border-radius:25px;;
+}
+
+.activites {
+	background-color:#139328;
+	height: 1450px;
+}
+
+.img-left img{
+	margin:0;
+	height:430px;
+	width:50%;
+	float:left;
+}
+.img-right img{
+	width:50%;
+	height:510px;
+	float:right;
+	margin-top:395px;
+}
+.img-left-l img{
+	width:50%;
+	height:510px;
+	float:left;
+	margin-top:475px;
+}
+
+.gal_v h1{
+	color:#08366D;
+	background-color: #ABDFF6;
+	padding:50px;
+}
+
+.gal_v img {
+	display: inline-block;
+	padding-right:5px;
+	width : 45%;
+}

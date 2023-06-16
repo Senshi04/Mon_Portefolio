@@ -1,0 +1,25 @@
+.AEC {
+	color:#FF3B76;
+	padding: 40px 0;
+}
+
+
+.AEC h1 span {
+	padding : 5px 0;
+	color:#139328;
+	padding:0;
+	border-bottom:1px solid #139328;
+}
+.AEC h2 {
+	padding: 25px;
+}
+
+.c {
+	background-color:#FF3B76;
+	color:white;
+	height: 650px;
+}
+
+.c h2{
+	padding : 25px;
+}
