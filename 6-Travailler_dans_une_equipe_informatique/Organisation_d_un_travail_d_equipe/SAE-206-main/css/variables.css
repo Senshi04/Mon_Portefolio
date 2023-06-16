@@ -1,0 +1,24 @@
+:root{
+    /* Couleurs */
+    --primary-color: rgb(63, 53, 45);
+    --background-color: rgb(63, 53, 45, 0.15);
+    --border-color: rgb(63, 53, 45, 0.25);
+    --button-color: rgb(63, 53, 45, 0.35);
+    --button-primary-color: rgb(63, 53, 45, 0.5);
+    --card-color: rgb(63, 53, 45, 0.05);
+
+
+    /* Taille de police */
+    --font-size-small: 12px;
+    --font-size-medium: 15px;
+    --font-size-sub-title: 20px;
+    --font-size-title: 30px;
+
+    /* Police */
+    --font-family-commun: "Montserrat", Palatino, Monaco, Georgia, serif, sans-serif;
+    --font-family-title: 'Unna', Optima, Palatino, Monaco, Georgia, serif, sans-serif;
+
+    /* Bordure */
+    --border-card: 30px;
+    --border-button: 20px;
+}

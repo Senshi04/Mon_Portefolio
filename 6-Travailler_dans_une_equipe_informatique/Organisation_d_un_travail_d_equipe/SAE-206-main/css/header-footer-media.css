@@ -1,0 +1,113 @@
+/* Extra small devices (phones, 320 and up) */
+@media only screen and (max-width: 320) {
+    header {
+        width: 80%;
+        font-size: var(--font-size-medium);
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    /* Footer */
+    footer {
+        height: 70%;
+    }
+
+    #upper-footer {
+        flex-direction: column;
+        align-items: center;
+        height: 85%;
+    }
+
+    #lower-footer {
+        height: 15%;
+    }
+
+    #img-footer {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 25%;
+        border-bottom: var(--border-color) solid 1px;
+        border-right: none;
+    }
+
+    #newsletter {
+        width: 80%;
+        height: 50%;
+        border-bottom: var(--border-color) solid 1px;
+        border-right: none;
+    }
+
+    #lower-footer {
+        flex-wrap: wrap;
+    }
+
+    #logo-reseaux {
+        height: 25%;
+    }
+
+    /* Header */
+    #header {
+        display: none;
+    }
+
+    #header-menu {
+        position: absolute;
+        right: 0px;
+        top: 30px;
+        width: 100px;
+        background-color: rgba(255, 255, 255, 0.75);
+        z-index: 1;
+        border-radius: 10px;
+        height: 200px;
+        padding-left: 10px;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    header {
+        position: relative;
+        justify-content: end;
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (max-width: 1024px) {
+    #footer {
+        width: 98%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+@media screen and (max-height: 700px) {
+    #img-footer > img{
+        height:100%;
+    }
+}
+
+
+@media screen and (max-height: 700px) and (max-width: 768px) {
+    #img-footer {
+        display: none;
+    }
+
+    #newsletter {
+        height: 70%;
+        overflow: scroll;
+    }
+
+    #newsletter::-webkit-scrollbar { width: 0 !important }
+
+    #logo-reseaux {
+        height: 30%;
+    }
+}

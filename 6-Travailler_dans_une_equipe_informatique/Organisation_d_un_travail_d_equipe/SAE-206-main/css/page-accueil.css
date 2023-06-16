@@ -1,0 +1,146 @@
+#body{
+    height: 186%;
+    width: 100%;
+    background-image: url("../assets/page-accueil/musée.jpg");
+    background-attachment: fixed;
+}
+#empty-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-family-commun);
+    background-color: white;
+    height: 4%;
+    width: 100%;
+    text-align: center;
+}
+#affiche{
+    height: 47.1%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#blur{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    filter:blur(5px);
+    justify-content: center;
+    background-color: black;
+    transition: filter 0.5s;
+}
+#blur > img{
+    width: 850px;
+    height: 95%;
+}
+#bienvenue{
+    text-align: center;
+    width: 47%;
+    color: white;
+    position: absolute;
+    font-family: var(--font-family-title);
+    height: 100%;
+}
+#bienvenue > h1{
+    font-size: 450%;
+    transition: font-size 1s;
+}
+@keyframes title {
+    to{
+        left:1%;
+        top:0;
+        width: 20%;
+        height: 7%;
+    }
+}
+#bg-white{
+    height: 35%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#activities{
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#activities h2{
+    margin-left: 10px;
+    width: 86%;
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-title);
+}
+#activities article{
+    width: 86%;
+    height: 64%;
+    overflow: hidden;
+    display: -webkit-box;
+    border-bottom: var(--border-color) solid 1px;
+}
+.card-slide{
+    height: 100%;
+    width: 1800px;
+    display: flex;
+    animation: slide 15s infinite linear;
+}
+.card{
+    position: relative;
+    height: 305px;
+    width: 330px;
+    background-color: var(--card-color);
+    margin: 0px 8% 0px 10px;
+    border-radius: var(--border-card);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15) ;
+    transition: left 1s;
+}
+@keyframes slide {
+    from{
+     transform: translateX(0);
+    }
+    to{
+     transform: translateX(-100%);
+    }
+ }
+.card > img{
+    height: 80%;
+    width: 100%;
+    border-radius: var(--border-card) var(--border-card) 0 0;
+    background-color: white;
+}
+
+.button-more-frame{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-more{
+    text-decoration: none;
+    background-color: var(--button-color);
+    border-radius: var(--border-card);
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: var(--font-size-small);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#empty-div-footer{
+    height: 10%;
+}
+
+.button-more:hover {
+    background-color: var(--background-color);
+}
+
+#activities>article:hover .card-slide{
+    animation-play-state: paused;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>The Music Museum - Events</title>
+    <link rel="stylesheet" href="../css/font.css"/>
+    <link rel="stylesheet" href="../css/variables.css" />
+    <link rel="stylesheet" href="../css/header-footer.css"/>
+    <link rel="stylesheet" href="../css/page-musee.css" />
+    <link rel="stylesheet" content="media" href="../css/header-footer-media.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul id="header">
+            <li class="elmt-header"><a href="home-page.html">Homepage</a></li>
+            <li class="elmt-header" id="page-on"><a href="page-musee-en.html">Discover</a></li>
+            <li class="elmt-header"><a href="">Ticketing</a></li>
+            <li class="elmt-header"><a href="">Calender</a></li>
+            <li class="elmt-header"><a href="">My account</a></li>
+            <li class="elmt-header">
+                <select class="lang-menu">
+                    <option id="en" value="en">English</option>
+                    <option id="fr" value="fr">Français</option>
+                </select>
+            </li>
+        </ul>
+        <ul id="header-menu">
+            <li class="elmt-header"><a href="home-page.html">Homepage</a></li>
+            <li class="elmt-header"><a href="page-musee-en.html">Discover</a></li>
+            <li class="elmt-header"><a href="">Ticketing</a></li>
+            <li class="elmt-header"><a href="">Calender</a></li>
+            <li class="elmt-header"><a href="">My account</a></li>
+            <li class="elmt-header">
+                <select class="lang-menu">
+                    <option id="en" value="en">English</option>
+                    <option id="fr" value="fr">Français</option>
+                </select>
+            </li>
+        </ul>
+        <div id="hamburger">
+            <ul>
+                <li class="line"></li>
+                <li class="line"></li>
+                <li class="line"></li>
+            </ul>
+    </header>
+    <main>
+        <div id="space-header-coll">
+        </div>
+        <!-- Fond gris -->
+        <section id="collections-parent">
+            <div id="for_img">
+                <img id="retour" alt="retour" src="../assets/page-musee/flecheMarron.png" />
+            </div>
+            <h1>Our Collections</h1>
+            <!-- Container des card -->
+            <div id="collections">
+                <!-- Début ligne up -->
+                <div id="ligne-up">
+                    <!-- Carte 1 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../assets/page-musee/naissanceOpera.jpeg"/>
+                        </div>
+                        <div class="card-title">
+                            <center><p>The birth of opera</p></center>
+                        </div>
+                        <div class="card-desc">
+                            <center><p>Discover the birth of opera in Italy</p></center>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../assets/page-musee/epoqueLumiere.jpeg"/>
+                        </div>
+                        <div class="card-title">
+                            <center><p>Music of the enlightenment</p></center>
+                        </div>
+                        <div class="card-desc">
+                            <center><p>Discover the Enlightenment in 18th century France</p></center>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../assets/page-musee/romantique.jpeg"/>
+                        </div>
+                        <div class="card-title">
+                            <center><p>The romantic Europe</p></center>
+                        </div>
+                        <div class="card-desc">
+                            <center><p>Discover the Romantic Europe!</p></center>
+                        </div>
+                    </div>
+                </div> 
+                <!-- Fin du div ligne up -->
+
+                <!-- Début ligne-bas -->
+                <div id="ligne-bas">
+                     <!-- Carte 1 -->
+                     <div class="card">
+                        <div class="card-img">
+                            <img src="../assets/page-musee/electroGuitare.png"/>
+                        </div>
+                        <div class="card-title">
+                            <center><p>Acceleration of history</p></center>
+                        </div>
+                        <div class="card-desc">
+                            <center><p>Discover how the story accelerated</p></center>
+                        </div>
+                    </div>
+                    <!-- Carte 2 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../assets/page-musee/musqiueMonde.jpeg"/>
+                        </div>
+                        <div class="card-title">
+                            <center><p>Music of the world</p></center>
+                        </div>
+                        <div class="card-desc">
+                            <center><p>Discover the music of the world</p></center>
+                        </div>
+                    </div>
+                    <!-- Carte 3 -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="../assets/page-musee/expo2024.png"/>
+                        </div>
+                        <div class="card-title">
+                            <center><p>2024 Workshops</p></center>
+                        </div>
+                        <div class="card-desc">
+                            <center><p>Discover the 2024 workshop that you can do upon registration</p></center>
+                        </div>
+                    </div>
+                </div>     
+                <!-- Fin ligne-bas-->
+            <div id="open-card">
+                <div id="header-open-card">
+                    <div id="open-card-title"><h1 id="titre"></h1></div>
+                    <div id="open-card-img"><img id="image" /></div>
+                    
+                </div>
+                <div id="open-card-p">
+                    <p id="description"></p> 
+                </div>
+            </div>
+            </div>
+            <!-- Fin container card -->
+        </section>
+        <br/>
+        <article>
+            <h1>Discover the museum</h1>
+            <div id="hist-musee">
+                <p><strong>General information about the music museum</strong></p>
+
+                <p><u>History:</u><br/></p>
+                <p>
+                    The museum of music of the philharmonie de paris located in the 19th arr. The building of the museum was the old conservatory of Paris built in 1795. The latter was renovated and transformed into a music museum in 1997. The museum is under the responsibility of the state.
+                </p>
+                    <p><br/><u>Description of the museum :</u></p>
+                <p>    
+                    The museum has a collection of more than 7000 instruments of which 1000 are exposed. It presents the evolution of the instruments and the music through the times and the cultures, so it proposes concerts of the temporary exhibitions and even activities for the children.
+                </p>
+                    <p><u><br/>Visitors' opinion about the museum:</u></p>
+                    <p>Visitors recommend this museum, which offers a rich and diverse cultural experience, with exhibits on the history of music and instruments of the world as well as a pleasant atmosphere. Prices are reasonable, with free admission for those under 25 and free audio guides available.
+                </p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div id="footer">
+            <div id="upper-footer">
+                <div id="img-footer"><img src="../assets/footer/ministere.svg" /></div>
+                <div id="newsletter">
+                    <div>
+                        <h2>NEWSLETTER</h2>
+                        <p>Stay informed with the news !</p>
+                        <form>
+                            <input id="newsletter-email" type="email" name="newsletter-email"
+                                placeholder="Your email address">
+                            <input id="newsletter-submit" type="submit" name="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+                <div id="logo-reseaux">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../assets/footer/insta.png"
+                            alt="logo instagrame"></a>
+                    <a href="https://twitter.com/?lang=fr" target="_blank"><img src="../assets/footer/twitter.png"
+                            alt="logo twitter"></a>
+                    <a href="https://www.snapchat.com/fr-FR" target="_blank"><img src="../assets/footer/snap.png"
+                            alt="logo snapchat"></a>
+                </div>
+            </div>
+            <ul id="lower-footer">
+                <li><a href="">Legal notices</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="team-page.html">Team</a></li>
+                <li><a href="">Site Map</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Frequently asked questions(FAQ)</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/header.js"></script>
+    <script src="../js/page-musee.js"></script>
+</body>
+
+</html>

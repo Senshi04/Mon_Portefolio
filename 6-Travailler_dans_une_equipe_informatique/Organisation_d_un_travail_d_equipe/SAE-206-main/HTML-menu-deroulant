@@ -1,0 +1,14 @@
+<header>
+  <ul id="header">
+      <li id="elmt-header">Billetterie</li>
+      <li id="elmt-header">Découvrir</li>
+      <li id="elmt-header">En ce moment</li>
+      <li id="elmt-header">Agenda</li>
+      <li id="elmt-header">Mon Compte</li>
+      <li id="elmt-header">
+      <select id="lang-menu">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+      </select></li>
+  </ul>
+</header>

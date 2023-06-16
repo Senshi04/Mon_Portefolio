@@ -1,0 +1,321 @@
+body {
+    color: var(--primary-color);
+    font-family: var(--font-size-small);
+}
+main{
+    width: 100%;
+    height: 223%;
+}
+#space-header-coll{
+    background-color: white;
+    width: 100%;
+    height: 8%;
+}
+#collections-parent{
+    width: 100%;
+    height: 41%;
+    background-color: var(--background-color);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 4px var(--border-color);
+
+}
+#collections-parent h1 {
+    font-size: var(--font-size-title);
+    font-family: var(--font-family-title);
+}
+
+#collections {
+    width: 54%;
+    height: 74%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#ligne-up, #ligne-bas {
+    width: 90%;
+    height: 65%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 170px;
+    height: 190px;
+    margin-left: 3%;
+    margin-top: 2%;
+    border-radius: 20%;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.25);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.card:hover {
+    transform: scale(1.3);
+    transition: all 0.2s ease-out;
+    z-index: 2;
+
+}
+.card-img{
+    width: 100%;
+    height: 82%;
+    margin:0;padding:0;
+    position: relative;
+}
+.card-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.card-desc {
+    height: 20%;
+    margin-top: 40%;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    top:0;
+    color: white;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 10%;
+    opacity: 0;
+    font-size: var(--font-size-medium);
+
+}
+.card-desc > center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover .card-desc{
+    opacity: 1;
+}
+
+.card:hover .card-img{
+    filter: blur(1px);
+}
+
+.card-title {
+    width: 100%;
+    height:18%;
+    position: absolute;
+    font-size: var(--font-size-small);
+    display: flex;
+    justify-content: center;
+}
+.card-title p {
+    margin-top: 7px;
+    font-weight: bold;
+}
+#open-card{
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
+    width:58%;
+    height: 66%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: var(--border-card);
+    overflow: hidden;
+    position:absolute;
+}
+#header-open-card{
+    display: flex;
+    flex-direction: row;
+    height: 28%;
+    width: 100%;
+}
+#open-card-title{
+    width: 47%;
+    height: 100%;
+    background-color: rgba(63, 53, 45, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#open-card-img {
+    width: 53%;
+    height: 100%;
+}
+#open-card-img img{
+    width: 100%;
+    height: 100%;
+}
+#open-card-p {
+    width: 93%;
+    height: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-medium);
+    line-height: 1;
+}
+
+#description {
+    width:100%;
+    height: 80%;
+    line-height: 25px;
+}
+article {
+    width:100%;
+    height: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y:scroll;
+    scrollbar-width: thin;
+}
+#hist-musee {
+    width: 61%;
+    height: 70%;
+}
+article h1 {
+    font-size: var(--font-size-title);
+    font-family: var(--font-family-title);
+}
+article p {
+    font-size: var(--font-size-medium);
+    display: flex;
+    line-height: 2;
+}
+#for_img {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+#retour {
+    width: 3%;
+    height: 12%;
+    margin-top: 4%;
+    margin-right: 2%;
+    display: none;
+}
+
+#retour:hover {
+    cursor: pointer;
+}
+
+.cible {
+    display: none;
+}
+
+@media screen and (min-width:1500px){
+    #article{
+        height: 11%
+    }
+    .card {
+        width: 70%;
+        height: 80%;
+    }
+    .card-title {
+        font-size: var(--font-size-medium);
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    article{
+        height: 39%;
+        overflow-y:scroll;
+        scrollbar-width: thin;
+    }
+    #collections-parent {
+        height: 51%
+    }
+    #open-card-title>#titre {
+        font-size: 20px;
+    }
+    #open-card-p {
+        overflow-y: scroll;
+        scrollbar-width: none;        
+    }#open-card-p::-webkit-scrollbar { width: 0 !important }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    article{
+        height: 19%;
+        overflow-y:scroll;
+        scrollbar-width: thin;
+    }
+    #collections-parent {
+        height: 71%;
+    }
+    #collections {
+        width: 100%;
+        height: 74%;
+    }
+    .card {
+        width: 170px;
+        height: 190px;
+    }
+    #open-card-title>#titre {
+        font-size: 15px;
+    }
+    #open-card-p {
+        font-size: 15px;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }#open-card-p::-webkit-scrollbar { width: 0 !important }
+    
+}
+@media screen and (min-width: 481px) and (max-width:768px) {
+    article{
+        height: 29%;
+        overflow-y:scroll;
+        scrollbar-width: none;
+    }
+    #collections-parent{
+        width: 100%;
+        height: 61%;
+
+    }
+    #collections {
+        width: 100%;
+        height: 94%;
+    }
+    #collections-parent h1 {
+        font-size:20px;
+    }
+    .card {
+        width: 250px;
+        height: 250px;
+    }
+    .card-title {
+        font-size: var(--font-size-large);
+    }
+    #open-card-title>#titre {
+        font-size: 10px;
+    }
+    #open-card-p {
+        font-size: 12px;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }#open-card-p::-webkit-scrollbar { width: 0 !important }
+}
+@media screen and (max-width:480px) {
+    article{
+        height: 28%;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+    #collections-parent{
+        width: 100%;
+        height: 61%;
+
+    }
+    #collections {
+        width: 100%;
+        height: 94%;
+    }
+    .card {
+        width: 250px;
+        height: 200px;
+    }
+    #open-card-p {
+        overflow-y: scroll;
+        scrollbar-width: none;        
+    }#open-card-p::-webkit-scrollbar { width: 0 !important }
+}

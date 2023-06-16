@@ -1,0 +1,31 @@
+/* Extra small devices (phones, 320 and up) */
+@media only screen and (max-width: 320) {}
+
+/* Small devices (portrait tablets and large phones, 480px and up) */
+@media only screen and (max-width: 480px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #blur >img{
+        height: 90%;
+    }
+    .card{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (max-width: 1024px) {
+    #blur >img{
+        width: 100%;
+    }
+    #bienvenue{
+        display: none;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
