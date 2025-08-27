@@ -1,4 +1,4 @@
-# Compétence 1 ; Réaliser un développement d'application
+# Compétence 1 : Réaliser un développement d'application
 
 Cette compétence met au défi notre capacité à concevoir, développer et mettre en œuvre des solutions logicielles, depuis l'analyse des besoins jusqu'à la réalisation finale. Ces quatre SAÉ illustrent parfaitement cette polyvalence.
 \
