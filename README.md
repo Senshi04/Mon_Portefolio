@@ -9,6 +9,9 @@ Dans ce github se trouvera la plupart des travaux que j'ai réalisé lors de mes
   - Gérer des données de l'information
   - Conduire un projet
   - Travailler dans une équipe informatique
+\
+\
+Bien que certaines compétences possèdent moins de projet, il faut savoir que chaque année, les projets étaient de plus en plus complet. Ainsi, ceux des années 2 et 3 ont tendance à cocher les cases de plusieurs voir toutes les compétences.
 
 Les projets des différentes compétences m'ont appris le cycle de vie complet du développement d'une application. \
 \
